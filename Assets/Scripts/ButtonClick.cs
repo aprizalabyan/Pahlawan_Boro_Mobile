@@ -19,7 +19,14 @@ public class ButtonClick : MonoBehaviour
     {
 		
     }
+
 	public void ChangeScene(string namaScene){
 		SceneManager.LoadScene (namaScene);
+	}
+
+	public void QuitGame ()
+	{
+		Debug.Log("Quit");
+		Application.Quit();
 	}
 }

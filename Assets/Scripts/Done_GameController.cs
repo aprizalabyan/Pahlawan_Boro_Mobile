@@ -5,8 +5,10 @@ using UnityEngine.UI;
 
 public class Done_GameController : MonoBehaviour
 {
-    public Text restartText;
+    //public Text restartText;
 	public Text selesaiText;
+	//public Button restartButton;
+	public GameObject restartButton;
 
     private bool gameOver;
     private bool restart;
@@ -15,22 +17,23 @@ public class Done_GameController : MonoBehaviour
     {
         gameOver = false;
         restart = false;
-        restartText.text = "";
-
+        //restartText.text = "";
+		restartButton.SetActive(false);
     }
 
     void Update()
     {
 		if (gameOver)
 		{
-			restartText.text = "Tekan 'R' untuk ulang kembali";
+			//restartText.text = "Tekan 'R' untuk ulang kembali";
+			restartButton.SetActive(true);
 			selesaiText.text = "Selesai";
 			restart = true;
 		}
-
+		/*
         if (restart)
         {
-            if (Input.GetKeyDown(KeyCode.R))
+            if (restartButton.Pressed)
             {
                 SceneManager.LoadScene("Scene1");
 				Destroy (GameObject.Find ("Canvas"));
@@ -38,7 +41,7 @@ public class Done_GameController : MonoBehaviour
 
 			//gameOver = false;
         }
-
+		*/
 		//restart = false;
     }
 

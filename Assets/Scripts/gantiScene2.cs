@@ -6,22 +6,20 @@ using UnityEngine.SceneManagement;
 public class gantiScene2 : MonoBehaviour
 {
 	[SerializeField] private string namaScene;
+	//[SerializeField] private GameObject obj;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-		DontDestroyOnLoad(GameObject.Find("MainCamera"));
-		DontDestroyOnLoad(GameObject.Find("Player"));
-		DontDestroyOnLoad(GameObject.Find("Canvas"));
-    }
+	private GameObject player;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+	void Awake()
+	{
+		player = GameObject.Find ("Karakter");
+	}
 
-	void OnTriggerEnter(Collider col){
+	void OnTriggerEnter(Collider col)
+	{
 		SceneManager.LoadScene (namaScene);
+		DontDestroyOnLoad(GameObject.Find("MainCamera"));
+		DontDestroyOnLoad(GameObject.Find("Canvas"));
+		Destroy (player);
 	}
 }

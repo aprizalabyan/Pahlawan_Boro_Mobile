@@ -1,7 +1,8 @@
 Android
 PlayerPath?
-C:/Users/IP310/Documents/pb.apk
+C:/Users/IP310/Documents/pbnew_publish_new3.apk
 SceneListBegin?
+Assets/Scenes/MainMenu.unity
 Assets/Scenes/Scene1.unity
 Assets/Scenes/Scene2.unity
 Assets/Scenes/Scene3.unity
@@ -139,6 +140,7 @@ b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 4fd8bf02e3089425d3502e26c44ba31a Unity.TextMeshPro.dll:TMPro.TextContainer
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp-firstpass.dll:UnityStandardAssets.Water.WaterBasic
 e4443057e3a3c4b4322211549154413f Assembly-CSharp.dll:DitzeGames.MobileJoystick.Joystick
+d885b9920ccb36581222d20e1f56bd21 Assembly-CSharp.dll:.Menu_kontrol
 6dbfaeae8a8e811a7a18b5357ec5981b Assembly-CSharp.dll:.lookat
 e6ae40841db498b6e673877ac45ad208 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -157,9 +159,11 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 97a580c59cad3623a01bbf5fb2d7fa93 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Water.SpecularLighting
 510fefd6a544e16a3ffefa557ddcba39 Unity.TextMeshPro.dll:TMPro.PackageResourceImporterWindow
 c239250f2f7641ce897064c7bd4173b0 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Water.Water
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Main_menu
 aa82b3ce4c0c9b227036c0337315c5d3 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
 e51c09a4cc447f11db225afcd8e3e490 Unity.TextMeshPro.dll:TMPro.TMP_Settings
 824e8d4cb47ffd88ddf959dbd4526585 Assembly-CSharp.dll:.DynamicJoystick
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Restart
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
 cf96e5f7b3d069bab453925bd41be04e UnityEngine.TestRunner.dll:UnityEngine.TestTools.EnumerableSetUpTearDownCommandState
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
@@ -176,10 +180,12 @@ fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.lari
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.DontDestroyOnLoad
 7805dbebd103341782f3d6071ec8690f Assembly-CSharp.dll:.DestroyOnLoad
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.MainMenu
 a4f0a4f62100f1a4fb5cbe0e00dde83f Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 5fc094978ce3e3591a7500ed380d854a Unity.Analytics.DataPrivacy.dll:UnityEngine.Analytics.DataPrivacyButton
-7946db7afc3d0c9554a1f3f0b2609e79 Assembly-CSharp.dll:DitzeGames.MobileJoystick.Example.kontrol_mobile
+7946db7afc3d0c9554a1f3f0b2609e79 Assembly-CSharp.dll:DitzeGames.MobileJoystick.kontrol_mobile
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.DoorAOpen
 528e9858840cb8370d93939fff6b42d9 Assembly-CSharp.dll:.JoystickPlayerExample
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
@@ -193,5 +199,8 @@ c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 0a3cd27f1b9e95674fd07c4c43c8f6f2 Assembly-CSharp.dll:.gantiScene2
 0620cd4699bee3801f11b1a6fbe1a70e Assembly-CSharp.dll:DitzeGames.MobileJoystick.TouchField
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
-cf1e9a970c9f7fd9499a84c184ec41a1 Assembly-CSharp.dll:.Done_GameController
+d8ee37710c2c2d631d9b6254ed480a28 Assembly-CSharp.dll:.Done_GameController
 9dac16f3efc511835ac976dfae55f580 Assembly-CSharp.dll:.VariableJoystick
+0289a2f6db84ba6eb6cf12710bb60cd5 Assembly-CSharp.dll:.Ads
+7106cae55ee921b821bbf4db3aa08913 Assembly-CSharp.dll:.AdmobHandler
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:GoogleMobileAds.Common.MobileAdsEventExecutor

@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using DitzeGames.MobileJoystick;
+//using DitzeGames.MobileJoystick;
 
-namespace DitzeGames.MobileJoystick.Example{
+namespace DitzeGames.MobileJoystick{
 	public class kontrol_mobile : MonoBehaviour{
 		
 		protected Joystick Joystick;
@@ -30,6 +30,10 @@ namespace DitzeGames.MobileJoystick.Example{
 
 		private float m_jumpTimeStamp = 0;
 		private float m_minJumpInterval = 0.25f;
+
+		private float v1;
+		private float v2;
+		private float h;
 
 		private bool m_isGrounded;
 		private List<Collider> m_collisions = new List<Collider>();
@@ -104,11 +108,11 @@ namespace DitzeGames.MobileJoystick.Example{
 			transform.position = new Vector3(transform.position.x + Joystick.AxisNormalized.x * Time.deltaTime * 3f, Button.Pressed ? 2 : 1, transform.position.z + Joystick.AxisNormalized.y * Time.deltaTime * 3f);
 			transform.Rotate(Vector3.up, TouchField.TouchDist.x);
 			transform.Rotate(Vector3.left, TouchField.TouchDist.y);
-*/
+			*/
 
-			float v1 = Joystick.AxisNormalized.y;
-			float v2 = Joystick.AxisNormalized.x;
-			float h = TouchField.TouchDist.x;
+			v1 = Joystick.AxisNormalized.y;
+			v2 = Joystick.AxisNormalized.x;
+			h = TouchField.TouchDist.x;
 
 			/*bool walk = Button.Pressed;
 

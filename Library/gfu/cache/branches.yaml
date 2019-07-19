@@ -13,10 +13,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-04-23T23:53:13.418+07:00
-  initializedAtString: 2019-04-23T23:53:13.380+07:00
-  localBranches: []
-  remoteBranches: []
+  lastUpdatedAtString: 2019-07-19T16:33:11.987+07:00
+  initializedAtString: 2019-07-19T15:29:51.721+07:00
+  localBranches:
+  - name: master
+    tracking: origin/master
+  remoteBranches:
+  - name: origin/master
+    tracking: '[None]'
   remotes:
   - name: origin
     url: https://github.com/aprizalabyan/Pahlawan_Boro_Mobile.git
@@ -26,12 +30,27 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys: []
-    values: []
+    keys:
+    - master
+    values:
+    - name: master
+      remote:
+        name: origin
+        url: https://github.com/aprizalabyan/Pahlawan_Boro_Mobile.git
+      trackingBranch: master
   remoteConfigBranches:
-    keys: []
-    subKeys: []
-    subKeyValues: []
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - master
+    subKeyValues:
+    - Values:
+      - name: master
+        remote:
+          name: origin
+          url: https://github.com/aprizalabyan/Pahlawan_Boro_Mobile.git
+        trackingBranch: 
   configRemotes:
     keys:
     - origin

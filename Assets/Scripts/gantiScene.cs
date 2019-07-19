@@ -22,9 +22,9 @@ public class gantiScene : MonoBehaviour {
 	void OnTriggerEnter(Collider col){
 		//if (col.gameObject.tag == "Player") {
 			SceneManager.LoadScene (namaScene);
-		DontDestroyOnLoad(GameObject.Find("Karakter"));
-		DontDestroyOnLoad(GameObject.Find("Main Camera"));
-		DontDestroyOnLoad(GameObject.Find("Canvas"));
+		//DontDestroyOnLoad(GameObject.Find("Karakter"));
+		//DontDestroyOnLoad(GameObject.Find("Main Camera"));
+		//DontDestroyOnLoad(GameObject.Find("Canvas"));
 		Destroy (obj);
 		//}
 	}
